@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DanucD Studio</title>
+<meta name="description" content="DanucD Studio makes mobile games. A studio of BERYLG, SIA, Latvia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0B1F24; --frame:#08141A; --card:#0F2A31; --line:#14333B;
+          --text:#E7F5EE; --dim:#8FB8A8; --green:#3FD37A; --mint:#A6EDC0; --amber:#F9A824; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--frame); color:var(--text);
+         font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:56px 22px 72px; }
+  .brand { font-family:Fredoka, sans-serif; font-weight:700; color:var(--green);
+           font-size:40px; letter-spacing:1px; margin:0; }
+  .tag { color:var(--dim); margin:4px 0 40px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:24px; }
+  .game { display:flex; gap:20px; align-items:center; }
+  .game svg { flex:none; width:96px; height:96px; border-radius:22px; }
+  h2 { font-family:Fredoka, sans-serif; font-weight:700; font-size:26px; margin:0; }
+  h2 span { color:var(--mint); }
+  .soon { display:inline-block; margin-top:8px; padding:3px 12px; border-radius:999px;
+          border:1px solid var(--green); color:var(--green); font-size:13px; font-weight:600; }
+  p { margin:12px 0 0; }
+  h3 { font-size:13px; letter-spacing:2px; color:var(--dim); margin:40px 0 10px; }
+  a { color:var(--green); }
+  .links a { display:block; padding:14px 18px; margin-top:8px; border-radius:14px;
+             background:var(--card); border:1px solid var(--line); text-decoration:none; color:var(--text); }
+  .links a:hover { border-color:var(--green); }
+  footer { margin-top:48px; color:var(--dim); font-size:14px; }
+  @media (max-width:480px) { .game { flex-direction:column; align-items:flex-start; } .brand { font-size:34px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1 class="brand">DanucD Studio</h1>
+  <p class="tag">Small mobile games, made in Latvia.</p>
+
+  <div class="card game">
+    <svg viewBox="0 0 1024 1024" aria-label="Bubble Snake Crash icon">
+      <rect width="1024" height="1024" fill="#0B1F24"/>
+      <path d="M 660 318 L 352 318 L 352 512 L 672 512 L 672 706 L 352 706" fill="none"
+            stroke="#3FD37A" stroke-width="150" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="660" cy="318" r="88" fill="#3FD37A"/>
+      <circle cx="694" cy="288" r="26" fill="#0B1F24"/>
+      <circle cx="852" cy="432" r="66" fill="#F9A824"/>
+    </svg>
+    <div>
+      <h2>Bubble Snake <span>Crash</span></h2>
+      <span class="soon">Coming soon to Google Play</span>
+      <p>Snake, rebuilt for your phone. Clean lines score more: every bubble is worth
+         the most when you reach it without wasting a move. Classic and Speedrun modes,
+         a real leaderboard, daily goals and seventeen skins.</p>
+    </div>
+  </div>
+
+  <h3>LEGAL</h3>
+  <div class="links">
+    <a href="/legal/privacy.html">Privacy Policy</a>
+    <a href="/legal/terms.html">Terms of Use</a>
+  </div>
+
+  <h3>CONTACT</h3>
+  <p><a href="mailto:danucdstudio@gmail.com">danucdstudio@gmail.com</a></p>
+
+  <footer>
+    DanucD Studio is a studio of <strong>BERYLG, SIA</strong>, registered in Latvia
+    (registration no. 42103099442).
+  </footer>
+</main>
+</body>
+</html>
